@@ -1,0 +1,36 @@
+```json
+{
+  "unsupported_claims": [],
+  "missing_grounding": [
+    {
+      "issue": "The draft mentions 'return/refund instructions' will be provided but KB doesn't specify any return shipping process or whether customer needs to physically return damaged items",
+      "suggestion": "Avoid promising specific return instructions; KB only states photos may be requested and refunds are issued, but doesn't detail a physical return process for damaged goods"
+    }
+  ],
+  "tone_notes": [
+    {
+      "issue": "Opening with 'I'm sorry to hear' is appropriate but slightly formulaic",
+      "severity": "minor"
+    },
+    {
+      "issue": "Tone is overall professional and appropriately empathetic without being overly apologetic",
+      "severity": "positive"
+    }
+  ],
+  "recommended_changes": [
+    {
+      "change": "Remove or soften the promise of 'return/refund instructions' - KB doesn't confirm damaged items need to be returned, only that photos may be requested (which customer already provided)",
+      "reason": "Avoid setting expectations about a return process that isn't documented in KB"
+    },
+    {
+      "change": "Acknowledge that photos were already attached rather than just saying 'keep the damaged bottle'",
+      "reason": "Customer explicitly stated photos were attached; draft should confirm receipt rather than imply they haven't been reviewed"
+    },
+    {
+      "change": "Clarifying question about exact delivery date may be unnecessary - customer stated 'delivered yesterday' which is sufficiently specific for the 7-day window",
+      "reason": "Asking for carrier confirmation date could come across as overly bureaucratic when 'yesterday' clearly meets the 7-day requirement"
+    }
+  ],
+  "verdict": "revise"
+}
+```

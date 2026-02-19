@@ -1,0 +1,40 @@
+```json
+{
+  "unsupported_claims": [],
+  "missing_grounding": [
+    {
+      "issue": "Draft mentions 'return and refund' but KB only explicitly confirms refund process after return approval—replacement is not mentioned as an option despite customer asking about it",
+      "suggestion": "Either explicitly state that replacement is not offered (if true per policy) or remove implication that refund is the only outcome. Currently the draft sidesteps the replacement question without explanation."
+    }
+  ],
+  "tone_notes": [
+    {
+      "issue": "Opening apology is appropriate but brief—tone is good overall",
+      "severity": "minor positive"
+    },
+    {
+      "issue": "Numbered 'Next steps' format is clear and helpful",
+      "severity": "positive"
+    },
+    {
+      "issue": "Asking customer to confirm number of bottles affected is reasonable, but phrasing 'just one, or more' in clarifying question could feel slightly redundant since customer already stated 'one of the bottles'",
+      "severity": "minor"
+    }
+  ],
+  "recommended_changes": [
+    {
+      "change": "Address the customer's question about replacement directly—either confirm replacements are available or clarify that only refunds are offered per policy. KB does not mention replacements, so draft should acknowledge this gap or escalate.",
+      "priority": "high"
+    },
+    {
+      "change": "Remove or soften the clarifying question about number of damaged bottles—customer clearly stated 'one of the bottles' was damaged. Asking again may seem inattentive.",
+      "priority": "medium"
+    },
+    {
+      "change": "Consider adding brief acknowledgment that photos have been received and will be reviewed, rather than just noting customer 'did the right thing'—more actionable language.",
+      "priority": "low"
+    }
+  ],
+  "verdict": "revise"
+}
+```
